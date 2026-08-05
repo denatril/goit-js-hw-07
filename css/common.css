@@ -146,3 +146,36 @@ button[data-destroy]:hover {
 .widget p {
   margin: 0 0 16px;
 }
+
+#controls {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  width: 486px;
+  padding: 32px;
+  margin-bottom: 16px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+}
+
+#controls input {
+  width: 150px;
+  text-align: center;
+}
+
+#controls button {
+  width: 120px;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  align-items: center;
+  width: 486px;
+  min-height: 160px;
+  padding: 32px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+}
+
