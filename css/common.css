@@ -133,3 +133,16 @@ button[data-destroy]:hover {
 .login-form button {
   margin-top: 8px;
 }
+
+.widget {
+  width: 345px;
+  min-height: 280px;
+  padding: 100px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.widget p {
+  margin: 0 0 16px;
+}
